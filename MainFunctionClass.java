@@ -1,4 +1,4 @@
-package src;
+package threesolid;
 
 public class ThreeSolidMain {
 	public static Manager tsManager = new Manager();
