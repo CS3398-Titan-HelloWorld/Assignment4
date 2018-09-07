@@ -28,5 +28,6 @@ public class ThreeSolidMain {
 	      System.exit(0);
 
 	   }
+	   //Test GHD
 
 }
