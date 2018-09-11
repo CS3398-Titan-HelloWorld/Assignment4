@@ -1,6 +1,6 @@
 package threesolid;
 
-public class ThreeSolidMain {
+public class Main {
 	public static Manager tsManager = new Manager();
 
 	   // The entry main() method

@@ -1,7 +1,5 @@
 package threesolid;
 
-import threesolid.RootWorker;
-
 class Manager 
 {
 	RootWorker worker;
