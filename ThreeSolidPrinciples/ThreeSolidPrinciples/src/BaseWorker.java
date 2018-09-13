@@ -1,9 +1,11 @@
 package threesolid;
 
-public class RootWorker implements Iworkable {
+public class BaseWorker implements Iworkable 
+{
     /*This class is the root class for all worker subtypes*/
 
-	public void work() {
+	public void work() 
+	{
 		// ...working
 	}
 }
