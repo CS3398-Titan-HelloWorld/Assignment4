@@ -96,10 +96,11 @@ dependencies {
             'org.junit.vintage:junit-vintage-engine:5.3.0-M1'
     )
 }
-
+/*
 test {
     useJUnitPlatform()
 }
+*/
 // end::dependencies[]
 
 // tag::wrapper[]
