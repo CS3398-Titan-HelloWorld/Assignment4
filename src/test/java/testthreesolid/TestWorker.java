@@ -11,7 +11,7 @@ public class TestWorker
  @DisplayName("newtestPCWorkerPass")
  public void testEatMethod()
  {
-	 assertEquals(w.eat(), "Lunchtime!", "The method text and the expected text are not the same");
+	fail("TravisCi better not pass this...");
  }
 
 }
