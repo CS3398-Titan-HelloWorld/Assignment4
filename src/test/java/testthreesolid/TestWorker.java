@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 public class TestWorker 
 {
-  
+  Worker w = new Worker();
 
  @Test
  @DisplayName("newtestPCWorkerPass")
