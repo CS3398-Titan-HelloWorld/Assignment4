@@ -16,7 +16,7 @@ public class Worker extends BaseWorker implements IEat, ISick {
 	}
 		public String eat() {
 		String response;
-		response = "Lunchtime!";
+		response = "Lunch time!";
 		return response;
 	}
 	}
