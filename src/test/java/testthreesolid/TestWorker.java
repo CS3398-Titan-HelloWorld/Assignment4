@@ -20,10 +20,10 @@ public class TestWorker {
  assertEquals(w.sick(),"I'm sick already!","Mismatch between test text and method text");
  }
  
- public void testWorkMethod(){
+ public void testSuperWorkerWorkMethod(){
  	assertEquals(sw.work(), "Working hard. Just working hard.", "Mismatch between test text and method text");
  }
- public void testWorkMethod(){
+ public void testSuperWorkerEatMethod(){
  	assertEquals(sw.eat(), "Is there more coffee?", "Mismatch between test text and method text");
  }
 }
