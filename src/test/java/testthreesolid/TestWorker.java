@@ -5,13 +5,28 @@ import org.junit.jupiter.api.Test;
 
 public class TestWorker 
 {
-  Worker w = new Worker();
+ private Worker w = new Worker();
+ @Test
+ @DisplayName("Work Method Test")
+ public void testWorkMethod()
+ {
+ assertEquals(w.work(),"I'm working already!","Mismatch between test text and method text");
+ }
 
  @Test
  @DisplayName("newtestPCWorkerPass")
  public void testEatMethod()
  {
-	fail("TravisCi better not pass this...");
+	 assertEquals(w.eat(), "Lunchtime!", "The method text and the expected text are not the same");
+ }
+
+ private ProjectManager pm = new ProjectManager();
+ @Test
+ @DisplayName("newtestPCWorkerFail")
+ public void testSetWorkerMethod()
+ {
+	pm.setWorker(null);
+	assertNotNull(pm.worker, "The project manager's worker is null");
  }
 
 }
