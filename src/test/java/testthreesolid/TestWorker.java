@@ -26,7 +26,6 @@ public class TestWorker
  @DisplayName("newtestPCWorkerFail")
  public void testSetWorkerMethod()
  {
-	 pm.setWorker(null);
-	 assertNull(pm.worker, "Project Manager was able to set a NULL worker -- should not be able to do this.");
+	fail();
  }
 }
