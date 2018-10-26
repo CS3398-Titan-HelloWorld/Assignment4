@@ -2,7 +2,7 @@ package src;
 
 public class TempWorker extends BaseWorker implements IEat, ISick {
 
-    @Override
+
 	public String work() {
 		String response;
 		response = "Workin hard or hardly workin?";
@@ -14,7 +14,6 @@ public class TempWorker extends BaseWorker implements IEat, ISick {
 		response = "Sick, taking the day off";
 		return response;
 	}
-
 	public String eat() {
 		String response;
 		response = "Lunchtime!";
