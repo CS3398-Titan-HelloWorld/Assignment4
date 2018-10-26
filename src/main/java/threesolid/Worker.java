@@ -9,12 +9,14 @@ public class Worker extends BaseWorker implements IEat, ISick {
 		return response;
 	}
 
-		public void sick() {
-			System.out.println("Sick, taking the day off");
-
-		}
-
-		public void eat() {
-			System.out.println("Lunchtime!");
-		}
+		public String sick() {
+		String response;
+		response = "Sick, taking the day off";
+		return response;
+	}
+		public String eat() {
+		String response;
+		response = "Lunchtime!";
+		return response;
+	}
 	}
