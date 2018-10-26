@@ -54,7 +54,7 @@ sourceSets {
 //////////////////////////////////////////////////////////////
 //
 //      Change this assignment to reflect your own project 
-//      mainClassName = 'package.mainClassName'
+//      mainClassName = 'src.ThreeSolidMain'
 //
 mainClassName = 'src.ThreeSolidMain'
 //
@@ -75,7 +75,7 @@ repositories {
 //
 jar {
     baseName = 'dl-three-solid-main'
-    version =  '0.1.0'
+    version =  '1.8.0'
 }
 // end::jar[]
 
