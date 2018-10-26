@@ -13,7 +13,7 @@ public class TestWorker {
  }
  public void testEatMethod()
  {
- assertEquals(w.eat(),"I'm eating already!","Mismatch between test text and method text");
+ assertEquals(w.eat(),"Lunch time!","Mismatch between test text and method text");
  }
  public void testSickMethod()
  {
