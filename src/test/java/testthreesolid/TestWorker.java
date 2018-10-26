@@ -14,11 +14,13 @@ public class TestWorker
  assertEquals(w.work(),"I'm working already!","Mismatch between test text and method text");
  }
 
+ /*
  @Test
  @DisplayName("newtestPCWorkerPass")
  public void testEatMethod()
  {
 	 assertEquals(w.eat(), "Lunchtime!", "The method text and the expected text are not the same");
  }
+ */
  
 }
