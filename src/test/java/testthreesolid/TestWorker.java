@@ -21,7 +21,7 @@ public class TestWorker
 	 assertEquals(w.eat(), "Lunchtime!", "The method text and the expected text are not the same");
  }
 
- private ProjectManager pm = new ProjectManager
+ private ProjectManager pm = new ProjectManager();
  @Test
  @DisplayName("newtestPCWorkerFail")
  public void testSetWorkerMethod()
