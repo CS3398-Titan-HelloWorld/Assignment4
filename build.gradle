@@ -54,7 +54,7 @@ sourceSets {
 //      mainClassName = 'package.mainClassName'
 //
 //
-mainClassName = 'threesolid.ThreeSolidMain'
+mainClassName = 'src.ThreeSolidMain'
 
 // tag::repositories[]
 // Usually, a Java project will have some dependencies on external JAR files.  Gradle searches here for them
@@ -77,8 +77,8 @@ jar {
 // end::jar[]
 
 // tag::dependencies[]
-sourceCompatibility = 1.7
-targetCompatibility = 1.7
+sourceCompatibility = 1.8.0
+targetCompatibility = 1.8.0
 
 // joda-time provides the time stamping used in HelloWorld.java
 // junit is to run the TestGreeter.java and others
