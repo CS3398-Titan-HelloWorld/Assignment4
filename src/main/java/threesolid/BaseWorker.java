@@ -2,7 +2,8 @@ package src;
 
 public class BaseWorker {
 
-	public void work() {
-		System.out.println("Workin hard or hardly workin?");
+	public String work() {
+		String response = "Workin hard or hardly workin?";
+		return response;
 	}
 }
