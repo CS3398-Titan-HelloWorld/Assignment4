@@ -10,7 +10,7 @@ public class RobotWorker extends BaseWorker implements IReboot {
 	public String reboot() {
 		String talking;
 		talking = "Rebooting";
-		return talking
+		return talking;
 	}
 
 }
