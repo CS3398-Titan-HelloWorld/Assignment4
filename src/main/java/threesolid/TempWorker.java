@@ -3,16 +3,16 @@ package src;
 public class TempWorker extends BaseWorker implements IEat, ISick {
 
     @Override
-	public void work() {
-    	System.out.println("Workin hard or hardly workin?");
+	public String work() {
+    	String response = "Workin hard or hardly workin?";
+	return response;
 	}
-
-	public void sick() {
-		System.out.println("Sick, taking the day off");
-
+	public String sick() {
+    	String response = "Sick, taking the day off";
+	return response;
 	}
-
-	public void eat() {
-		System.out.println("Lunchtime!");
+	public String eat() {
+    	String response = "Lunchtime!";
+	return response;
 	}
 }
