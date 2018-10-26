@@ -14,3 +14,4 @@ public class TempWorker extends BaseWorker implements IEat, ISick {
 		response = "Sick, taking the day off";
 		return response;
 	}
+}
