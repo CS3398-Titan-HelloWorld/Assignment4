@@ -24,12 +24,12 @@ public class TestWorker {
  	private RobotWorker rw = new RobotWorker();
  	public void newtestBKRobotWorkerPass()
  	{
- 		//Tests the work function in RobotWorker.java and should pass
+ 		//Tests the work function in RobotWorker.java and should pass because the strings are the same
  		assertEquals(rw.work(),"Beep Borp?", "Mismatch between test text and method text");
  	}
  	public void newtestBKRobotWorkerFail()
  	{
- 		//Tests the reboot function in RobotWorker.java and should fail
+ 		//Tests the reboot function in RobotWorker.java and should fail because the strings are different
  		assertEquals(rw.reboot(), "Take over the world", "Mismatch between test text and method text");
  	}
 }
