@@ -54,7 +54,7 @@ sourceSets {
 //      mainClassName = 'package.mainClassName'
 //
 //
-mainClassName = 'threesolid.ThreeSolidMain'
+mainClassName = 'src.ThreeSolidMain'
 
 // tag::repositories[]
 // Usually, a Java project will have some dependencies on external JAR files.  Gradle searches here for them
@@ -72,7 +72,7 @@ repositories {
 //
 jar {
     baseName = 'dl-three-solid-main'
-    version =  '0.1.0'
+    version =  '1.8.0'
 }
 // end::jar[]
 
