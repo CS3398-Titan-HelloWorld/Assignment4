@@ -3,16 +3,16 @@ package src;
 
 public class Worker extends BaseWorker implements IEat, ISick {
 	 @Override
-		public void work() {
-	    	System.out.println("Workin hard or hardly workin?");
-		}
-
-		public void sick() {
-			System.out.println("Sick, taking the day off");
-
-		}
-
-		public void eat() {
-			System.out.println("Lunchtime!");
-		}
+	public String work() {
+    	String response = "Workin hard or hardly workin?";
+	return response;
+	}
+	public String sick() {
+    	String response = "Sick, taking the day off";
+	return response;
+	}
+	public String eat() {
+    	String response = "Lunchtime!";
+		return response;
+	}
 	}
