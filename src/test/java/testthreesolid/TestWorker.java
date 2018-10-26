@@ -24,12 +24,12 @@ public class TestWorker {
  private TempWorker tW = new TempWorker();
  @Test
  @DisplayName("TempWorkerTest")
- public void TempWorktest();
+ public void tempWorktest()
   {
     assertEquals(tW.work(),"Workin hard or hardly workin?","Mismatch between test text and method text");
     //This should return true as this is the String that is returned by work()
   }
-  public void TempSicktest();
+  public void tempSicktest()
   {
     assertEquals(tW.sick(),"Im totally in the office, boss","Mismatch between test text and method text");
     //This should return false as this TempWorker is a dirty liar
