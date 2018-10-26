@@ -4,16 +4,20 @@ package src;
 public class SuperWorker extends BaseWorker implements IEat, ISick {
 
     @Override
-	public void work() {
-    	System.out.println("Working hard. Just working hard.");
+	public String work() {
+		String response;
+		response = "Workin hard. Just working hard.";
+		return response;
 	}
-	public void eat() {
-		System.out.println("Food is for the weak");
-
+	public String eat() {
+		String response;
+		response = "Food is for the weak";
+		return response;
 	}
-	public void sick() {
-		System.out.println("I never get sick.");
-
+	public String sick() {
+		String response;
+		response = "I never get sick";
+		return response;
 	}
 
 }
