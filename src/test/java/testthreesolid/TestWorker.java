@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Test;
 public class TestWorker {
   
  private Worker w = new Worker();
+ private SuperWorker sw = new SuperWorker();
  @Test
  @DisplayName("Work Method Test")
  public void testWorkMethod()
@@ -19,5 +20,10 @@ public class TestWorker {
  {
  assertEquals(w.sick(),"I'm sick already!","Mismatch between test text and method text");
  }
- 
+  public void newtestRDSuperWorkerPass(){
+   assertEquals(sw.work(), "Working hard. Just working hard.","Mismatch between test text and method text");
+ }
+ public void newtestRDSuperWorkerFail(){
+   assertEquals(sw.eat(), "Is there more coffee?","Mismatch between test text and method text");
+ }
 }
