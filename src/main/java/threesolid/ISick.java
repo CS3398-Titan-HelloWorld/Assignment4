@@ -1,6 +1,6 @@
 package src;
 
 public interface ISick {
-	public void sick();
+	public String sick();
 }
 
