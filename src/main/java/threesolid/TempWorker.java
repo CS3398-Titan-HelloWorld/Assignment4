@@ -14,4 +14,10 @@ public class TempWorker extends BaseWorker implements IEat, ISick {
 		response = "Sick, taking the day off";
 		return response;
 	}
+	
+	public String eat() {
+		String response;
+		response = "Break Time!";
+		return response;
+	}
 }
