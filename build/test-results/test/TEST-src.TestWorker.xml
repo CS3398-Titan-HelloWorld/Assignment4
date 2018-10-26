@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="src.TestWorker" tests="3" skipped="0" failures="2" errors="0" timestamp="2018-10-26T20:44:08" hostname="DESKTOP-JSDK9SJ" time="0.011">
+<testsuite name="src.TestWorker" tests="3" skipped="0" failures="2" errors="0" timestamp="2018-10-26T21:51:31" hostname="DESKTOP-JSDK9SJ" time="0.011">
   <properties/>
-  <testcase name="testSetWorkerMethod()" classname="src.TestWorker" time="0.008">
+  <testcase name="testSetWorkerMethod()" classname="src.TestWorker" time="0.007">
     <failure message="org.opentest4j.AssertionFailedError: The project manager's worker is null ==&gt; expected: not &lt;null&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: The project manager's worker is null ==&gt; expected: not &lt;null&gt;
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:36)
 	at org.junit.jupiter.api.Assertions.fail(Assertions.java:62)
