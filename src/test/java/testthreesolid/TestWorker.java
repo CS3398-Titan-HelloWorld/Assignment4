@@ -20,5 +20,13 @@ public class TestWorker
  {
 	 assertEquals(w.eat(), "Lunchtime!", "The method text and the expected text are not the same");
  }
- 
+
+ private ProjectManager pm = new ProjectManager
+ @Test
+ @DisplayName("newtestPCWorkerFail")
+ public void testSetWorkerMethod()
+ {
+	 pm.setWorker(null);
+	 assertNull(pm.worker, "Project Manager was able to set a NULL worker -- should not be able to do this.");
+ }
 }
