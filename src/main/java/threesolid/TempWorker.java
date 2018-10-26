@@ -2,7 +2,7 @@ package src;
 
 public class TempWorker extends BaseWorker implements IEat, ISick {
 
-
+		@override
 	public String work() {
 		String response;
 		response = "Workin hard or hardly workin?";
